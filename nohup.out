@@ -1,0 +1,14 @@
+20:27:41 INFO: Traceback (most recent call last):
+  File "/home/a/qutebrowser/qutebrowser/config/configfiles.py", line 781, in read_config_py
+    code = compile(source, filename, 'exec')
+  File "/home/a/.config/qutebrowser/config.py", line 3
+    from qutebrowser.api import interceptor
+    ^
+IndentationError: unexpected indent
+
+20:27:41 ERROR: Error while loading config.py
+20:41:05 INFO: Opening in existing instance
+QProcess: Destroyed while process ("gvim") is still running.
+20:47:42 WARNING: /usr/lib/python3.8/subprocess.py:942: ResourceWarning: subprocess 940 is still running
+  _warn("subprocess %s is still running" % self.pid,
+
