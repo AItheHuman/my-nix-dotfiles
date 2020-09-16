@@ -1,0 +1,6 @@
+# installed with nix-env
+hugo,https://github.com/gohugoio/hugo
+go, for hugo
+glslang, for cc in doom emacs
+omnisharp-roslyn, for c# emacs
+mono, for c# emacs
