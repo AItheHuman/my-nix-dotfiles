@@ -11,18 +11,6 @@
         "url": "https://github.com/rycee/home-manager/archive/472ca211cac604efdf621337067a237be9df389e.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
-    "neovim": {
-        "branch": "master",
-        "description": "Vim-fork focused on extensibility and usability",
-        "homepage": "https://neovim.io",
-        "owner": "neovim",
-        "repo": "neovim",
-        "rev": "d4b4335fe330bf0558d38883cb8a2b47e8ece28a",
-        "sha256": "16x91ln3l5p3ljbvljr1v85mqlqckfjhm4cnw9a0hrw02i2gc9mg",
-        "type": "tarball",
-        "url": "https://github.com/neovim/neovim/archive/d4b4335fe330bf0558d38883cb8a2b47e8ece28a.tar.gz",
-        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
-    },
     "niv": {
         "branch": "master",
         "description": "Easy dependency management for Nix projects",
@@ -45,18 +33,6 @@
         "sha256": "0g2j41cx2w2an5d9kkqvgmada7ssdxqz1zvjd7hi5vif8ag0v5la",
         "type": "tarball",
         "url": "https://github.com/NixOS/nixpkgs/archive/6d4b93323e7f78121f8d6db6c59f3889aa1dd931.tar.gz",
-        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
-    },
-    "qutebrowser": {
-        "branch": "master",
-        "description": "A keyboard-driven, vim-like browser based on PyQt5.",
-        "homepage": "https://www.qutebrowser.org/",
-        "owner": "qutebrowser",
-        "repo": "qutebrowser",
-        "rev": "d8473590e6dfdc52a0ad6d43701a5cfdc2d9f7d2",
-        "sha256": "19jx2598zi438zxcsahyds4912dp18y8hmwalgjy4yilfjg6xcd2",
-        "type": "tarball",
-        "url": "https://github.com/qutebrowser/qutebrowser/archive/d8473590e6dfdc52a0ad6d43701a5cfdc2d9f7d2.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     }
 }
