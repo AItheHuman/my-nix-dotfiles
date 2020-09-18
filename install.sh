@@ -4,7 +4,6 @@ if [[ $1 == "" ]] #Where "$1" is the positional argument you want to validate
  then
  echo "Argument required: ubuntu"
  exit 0
-
 fi
 
 mkdir -p $HOME/.config                                                 # Create default config location
