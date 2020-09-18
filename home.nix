@@ -1,1 +1,1 @@
-/home/a/nix-config/machines/ubuntu/home.nix
+/home/a/nix-config/modules/Machines/ubuntu/home.nix

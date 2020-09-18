@@ -4,3 +4,7 @@ go, for hugo
 glslang, for cc in doom emacs
 omnisharp-roslyn, for c# emacs
 mono, for c# emacs
+
+# Shell stuff
+(get st working)
+direnv, for python pkg management

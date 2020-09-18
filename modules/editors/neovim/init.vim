@@ -54,3 +54,16 @@ noremap <C--> <C-x>
 noremap <C-=> <C-a>
 noremap <M-,> <C-o>
 noremap <C-M-,> <C-i>
+
+inoremap <C-p> <C-r>+
+cnoremap <C-p> <C-r>+
+vmap <C-c> "+y
+
+noremap p "0p
+" noremap P "0P
+for s:i in ['"','*','+','-','.',':','%','/','=','1','2','3','4','5','6','7','8','9','a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z']
+	execute 'noremap "'.s:i.'p "'.s:i.'p'
+	execute 'noremap "'.s:i.'P "'.s:i.'P'
+endfor
+noremap <LEADER>d "0d
+noremap <LEADER>D "0D

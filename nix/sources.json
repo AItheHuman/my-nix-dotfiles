@@ -5,10 +5,10 @@
         "homepage": "https://rycee.gitlab.io/home-manager/",
         "owner": "rycee",
         "repo": "home-manager",
-        "rev": "249650a07ee2d949fa599f3177a8c234adbd1bee",
-        "sha256": "0x858b7i15kx74aqwgi2n5ls7zjhcky95z9vbxfdlawmaz371dma",
+        "rev": "472ca211cac604efdf621337067a237be9df389e",
+        "sha256": "1gbfsnd7zsxwqryxd4r6jz9sgdz6ghlkapws1cdxshrbxlwhqad1",
         "type": "tarball",
-        "url": "https://github.com/rycee/home-manager/archive/249650a07ee2d949fa599f3177a8c234adbd1bee.tar.gz",
+        "url": "https://github.com/rycee/home-manager/archive/472ca211cac604efdf621337067a237be9df389e.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "neovim": {
@@ -17,10 +17,10 @@
         "homepage": "https://neovim.io",
         "owner": "neovim",
         "repo": "neovim",
-        "rev": "d8e6a0396a1bdc19c9e15adb233540816274487d",
-        "sha256": "1g2wbx3qinagy4a0s17jpdpn2mzwk86xx7d6zqrzvi4zj4gqrkm0",
+        "rev": "d4b4335fe330bf0558d38883cb8a2b47e8ece28a",
+        "sha256": "16x91ln3l5p3ljbvljr1v85mqlqckfjhm4cnw9a0hrw02i2gc9mg",
         "type": "tarball",
-        "url": "https://github.com/neovim/neovim/archive/d8e6a0396a1bdc19c9e15adb233540816274487d.tar.gz",
+        "url": "https://github.com/neovim/neovim/archive/d4b4335fe330bf0558d38883cb8a2b47e8ece28a.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "niv": {
@@ -29,10 +29,10 @@
         "homepage": "https://github.com/nmattia/niv",
         "owner": "nmattia",
         "repo": "niv",
-        "rev": "fad2a6cbfb2e7cdebb7cb0ad2f5cc91e2c9bc06b",
-        "sha256": "0mghc1j0rd15spdjx81bayjqr0khc062cs25y5dcfzlxk4ynyc6m",
+        "rev": "dd13098d01eaa6be68237e7e38f96782b0480755",
+        "sha256": "1cfjdbsn0219fjzam1k7nqzkz8fb1ypab50rhyj026qbklqq2kvq",
         "type": "tarball",
-        "url": "https://github.com/nmattia/niv/archive/fad2a6cbfb2e7cdebb7cb0ad2f5cc91e2c9bc06b.tar.gz",
+        "url": "https://github.com/nmattia/niv/archive/dd13098d01eaa6be68237e7e38f96782b0480755.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "nixpkgs-unstable": {
@@ -41,10 +41,22 @@
         "homepage": null,
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "49f820d217f4069472ca8f8f96d1c5681a747f7d",
-        "sha256": "0dg33j2a0w11gsk6vlkwry4zgfm0wxqbmf00s2mirvvwr26mbqww",
+        "rev": "6d4b93323e7f78121f8d6db6c59f3889aa1dd931",
+        "sha256": "0g2j41cx2w2an5d9kkqvgmada7ssdxqz1zvjd7hi5vif8ag0v5la",
         "type": "tarball",
-        "url": "https://github.com/NixOS/nixpkgs/archive/49f820d217f4069472ca8f8f96d1c5681a747f7d.tar.gz",
+        "url": "https://github.com/NixOS/nixpkgs/archive/6d4b93323e7f78121f8d6db6c59f3889aa1dd931.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "qutebrowser": {
+        "branch": "master",
+        "description": "A keyboard-driven, vim-like browser based on PyQt5.",
+        "homepage": "https://www.qutebrowser.org/",
+        "owner": "qutebrowser",
+        "repo": "qutebrowser",
+        "rev": "d8473590e6dfdc52a0ad6d43701a5cfdc2d9f7d2",
+        "sha256": "19jx2598zi438zxcsahyds4912dp18y8hmwalgjy4yilfjg6xcd2",
+        "type": "tarball",
+        "url": "https://github.com/qutebrowser/qutebrowser/archive/d8473590e6dfdc52a0ad6d43701a5cfdc2d9f7d2.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     }
 }

@@ -21,11 +21,12 @@ c.content.cookies.store = True
 c.hints.chars = "rnstviaoe"
 
 c.url.searchengines = {
-    "DEFAULT": "https://duckduckgo.com/?q={}",
+    "DEFAULT": "https://www.google.com/search?client=ubuntu&channel=fs&q={}&ie=utf-8&oe=utf-8",
     "r": "https://www.reddit.com/r/{}",
     "y": "https://www.youtube.com/results?search_query={}",
     "w": "https://en.wikipedia.org/wiki/{}",
-    "g": "https://www.google.com/search?client=ubuntu&channel=fs&q={}&ie=utf-8&oe=utf-8",
+    # "g": "https://www.google.com/search?client=ubuntu&channel=fs&q={}&ie=utf-8&oe=utf-8",
+    "d": "https://duckduckgo.com/?q={}",
 }
 
 # config.bind("l", "set-cmd-text :set colors.webpage.darkmode.enabled true")

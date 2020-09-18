@@ -7,7 +7,7 @@
   programs.neovim = {
     enable = true;
     configure = { };
-    extraConfig = builtins.readFile ../configs/neovim/init.vim;
+    extraConfig = builtins.readFile ./init.vim;
     plugins = with pkgs.vimPlugins; [
       completion-nvim
       fzf-vim
