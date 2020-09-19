@@ -1,5 +1,6 @@
 # run "xmodmap -pke" for full key list
 
+setxkbmap -option caps:swapescape:
 ## Letters Row 1 : q to \
 xmodmap -e "keycode 24 = l L l L"
 xmodmap -e "keycode 25 = h H h H"

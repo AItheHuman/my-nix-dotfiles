@@ -23,9 +23,10 @@ in {
     })
     (mkIf config.customizeable.wm.dwm.enable {
       # this is how home-manager calls dwm, as opposed to 'exec dwm'
+      # But how do I get rid of these ~'s?
       xsession.windowManager.command = "~/.nix-profile/bin/dwm";
       xsession.initExtra = ''
-        bash ./dwm_status.sh & \n
+        bash ~/nix-config/modules/shell/xsession/dwm_status.sh &
       '';
     })
     # (mkIf cfg.sun.enable {
