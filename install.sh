@@ -10,5 +10,5 @@ mkdir -p $HOME/.config                                                 # Create 
 rm -i $HOME/.config/nixpkgs/home.nix
 rm -i $HOME/.config/nixpkgs/config.nix
 ln -sf $(pwd) $HOME/.config/nixpkgs                                    # Symlink & force to lookup location
-ln -sf $(pwd)/modules/Machines/$1/home.nix $HOME/.config/nixpkgs/home.nix      
-ln -sf $(pwd)/modules/Machines/$1/config.nix $HOME/.config/nixpkgs/config.nix  
+ln -sf $(pwd)/Machines/$1/home.nix $HOME/.config/nixpkgs/home.nix      
+ln -sf $(pwd)/Machines/$1/config.nix $HOME/.config/nixpkgs/config.nix  

@@ -1,5 +1,5 @@
-{ config, lib, pkgs, ... }@args:
-{ }
-# let customLib = import ./lib args;
+{ config, lib, pkgs, ... }:
 
-# in { imports = customLib.getRecursiveFileList ./configs; }
+{
+  imports = [ ./browsers ./core ./dev ./editors ./services ./shell ./wm ];
+}

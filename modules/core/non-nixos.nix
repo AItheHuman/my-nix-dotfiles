@@ -11,7 +11,7 @@ in {
   imports = [ ../editors/neovim/neovim.nix ];
 
   options = {
-    customizeables.core.non-nixos = { # declare options for other modules to use
+    customizeable.core.non-nixos = { # declare options for other modules to use
       enable = mkOption {
         description = "config for non-NixOS systems";
         default = true;
