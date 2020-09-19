@@ -35,7 +35,7 @@ index 4465af1..e0ca438 100644
 +
 +		for (c = m->clients; c; c = c->next) {
 +			if (c->tags & (1 << i)) {
-+				drw_rect(drw, x, 1 + (indn * 4), selmon->sel == c ? 6 : 2, 2, 1, urg & 1 << i);
++				drw_rect(drw, x, 1 + (indn * 6), selmon->sel == c ? 6 : 3, 3, 1, urg & 1 << i);
 +				indn++;
 +			}
 +		}
