@@ -5,3 +5,6 @@ nohup.out
 ./dswitch.sh
 ./config.nix
 ./home.nix
+config.nix
+home.nix
+nix-config
