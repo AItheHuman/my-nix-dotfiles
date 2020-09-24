@@ -11,5 +11,16 @@ in {
     };
   };
 
-  config = mkIf cfg.enable { home.packages = [ pkgs.st ]; };
+  config = mkIf cfg.enable {
+    home.packages = [ pkgs.st ];
+    nixpkgs.config.packageOverrides = pkgs: {
+      st = pkgs.st.override {
+        patches = [
+          ./0.8.4/scrollback.diff
+          ./0.8.4/anysize.diff
+          ./0.8.4/colors-and-font.diff
+        ];
+      };
+    };
+  };
 }

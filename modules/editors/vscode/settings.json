@@ -1,0 +1,90 @@
+{
+    "launch": {
+    
+
+        "configurations": [],
+        "compounds": []
+  
+    },
+    "keyboard.dispatch": "keyCode",
+    "vim.vimrc.path": "~/.vimrc",
+    "vim.vimrc.enable": true,
+    "vim.easymotion": true,
+    "vim.incsearch": true,
+    "vim.useSystemClipboard": true,
+    "vim.leader": "<space>",
+    "vim.easymotionKeys": "rnstaouphdfvmb.ie",
+    "vim.easymotionMarkerBackgroundColor": "#bd93f9",
+    "vim.easymotionMarkerForegroundColorOneChar": "#1E2029",
+    "vim.easymotionMarkerForegroundColorTwoCharFirst": "#FF8000",
+    "vim.easymotionMarkerForegroundColorTwoCharSecond": "#1E2029",
+
+    "vim.normalModeKeyBindings": [
+        {
+            "before": ["b"],
+            "after": ["t"]
+        },
+        {
+            "before": ["N"],
+            "after": ["A"]
+        },
+        {
+            "before": ["L"],
+            "after": ["E"]
+        },
+        {
+            "before": ["<leader>", "a"],
+            "after": ["<leader>", "<leader>", "j"]
+        },
+        {
+            "before": ["<leader>", "e"],
+            "after": ["<leader>", "<leader>", "k"]
+        },
+        {
+            "before": ["s"],
+            "after": ["<leader>", "<leader>", "s"]
+        },
+    ],
+    // this'll be out soon
+    "vim.operatorPendingModeKeyBindings": [
+        {
+            "before": ["b"],
+            "after": ["t"]
+        },
+        {
+            "before": ["L"],
+            "after": ["E"]
+        },
+        {
+            "before": ["w"],
+            "after": ["^"]
+        },
+        {
+            "before": [";"],
+            "after": ["$"]
+        },
+    ],
+    "vim.visualModeKeyBindings": [
+        {
+            "before": ["b"],
+            "after": ["t"]
+        },
+        {
+            "before": ["L"],
+            "after": ["E"]
+        },
+        {
+            "before": ["<leader>", "a"],
+            "after": ["<leader>", "<leader>", "j"]
+        },
+        {
+            "before": ["<leader>", "e"],
+            "after": ["<leader>", "<leader>", "k"]
+        },
+        {
+            "before": ["s"],
+            "after": ["<leader>", "<leader>", "s"]
+        },
+    ],
+    "workbench.colorTheme": "Dracula Soft",
+}

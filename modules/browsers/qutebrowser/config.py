@@ -83,3 +83,4 @@ config.bind("k", "scroll-page 0 0.5")
 config.bind(".", "scroll-page 0 -0.5")
 config.bind("<Ctrl-a>", "completion-item-focus --history next", mode="command")
 config.bind("<Ctrl-e>", "completion-item-focus --history prev", mode="command")
+c.qt.force_software_rendering = "qt-quick"  # "chromium"  # 'qt-quick'

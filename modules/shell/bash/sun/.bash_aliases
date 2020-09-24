@@ -15,4 +15,6 @@
     n = "nohup ~/Standard-Notes-3.4.1.AppImage &";
     pcm = "export _JAVA_AWT_WM_NONREPARENTING=1 /opt/pycharm-community-2020.1.2/bin/./pycharm.sh &";
     eb = "emacs --debug-init";
+    find_internet = "sudo iwlist wlp3s0 scan | grep ESSID";
+
 }

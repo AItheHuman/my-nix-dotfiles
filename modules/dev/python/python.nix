@@ -18,6 +18,12 @@ in {
       python38Packages.setuptools
       python38Packages.pylint
       python38Packages.poetry
+      # emacs dependencies
+      python38Packages.pyflakes
+      python38Packages.isort
+      python38Packages.nose
+      python38Packages.pytest
+      python38Packages.flake8
     ];
   };
 }

@@ -142,3 +142,6 @@ if [ -f '/home/a/google-cloud-sdk/completion.bash.inc' ]; then . '/home/a/google
 # if command -v pyenv 1>/dev/null 2>&1; then
 #   eval "$(pyenv init -)"
 # fi
+
+# enable direnv
+eval "$(direnv hook bash)"

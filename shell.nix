@@ -11,7 +11,9 @@ in pkgs.mkShell rec {
   name = "home-manager-shell";
 
   buildInputs = with pkgs; [
-    niv
+    niv # add niv, which handles dependencies per Nix project.
+    # Allow the use of home-manager via nix-shell,
+    # even if not installed Ad-hoc with nix-env.
     (import sources.home-manager { inherit pkgs; }).home-manager
   ];
 

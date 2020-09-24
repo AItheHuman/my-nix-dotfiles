@@ -1,4 +1,7 @@
 nohup.out
 /* home.nix */
 /* config.nix */
-other-packages.txt
+./other-packages.txt
+./dswitch.sh
+./config.nix
+./home.nix

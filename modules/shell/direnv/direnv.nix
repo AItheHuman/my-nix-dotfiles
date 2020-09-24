@@ -14,6 +14,7 @@ in {
     programs.direnv = {
       enable = true;
       enableNixDirenvIntegration = true;
+      stdlib = builtins.readFile ./layout_poetry.sh;
     };
   };
 }
