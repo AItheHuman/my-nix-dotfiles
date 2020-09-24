@@ -1,6 +1,6 @@
 nohup.out
-./config.nix
-./home.nix
 ./nix-config
 ./other-packages.txt
 ./dswitch.sh
+./home.nix
+./config.nix

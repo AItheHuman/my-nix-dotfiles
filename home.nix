@@ -1,1 +1,0 @@
-/home/a/nix-config/machines/sun/home.nix
