@@ -1,51 +1,58 @@
 { config, lib, pkgs, ... }:
 
-with lib; # enables stuff like mkEnableOption
+with lib;
 
 let sources = import ../../nix/sources.nix;
 
 in {
-  imports = [ ./config.nix ../../modules ];
+  imports = [
+    ./config.nix
+    ../../modules
+
+  ];
 
   config = {
-    # to use options declared in other modules, you must import those modules
 
     customizeable = {
 
+      #### Option 1: ADD YOUR CONFIGURED PACKAGES HERE (After declaring & defining in a module) ####
+
       wm.dwm.enable = true;
       shell.xsession.sun.enable = true;
-      shell.xsession.mykeys.enable = true;
+
+      ## These is for my keyboard configuration. I don't recommend it, hehe.
+      # shell.xsession.mykeys.enable = true;
       shell.bash.enable = true;
       shell.st.enable = true;
       shell.direnv.enable = true;
       shell.my-scripts.enable = true;
 
-      core.non-nixos.enable = true;
+      core.non-nixos.enable = true; # declared in ../core/
 
-      editors.neovim.enable = true;
-      editors.vim.enable = true;
-      editors.vscode.enable = true;
+      ## I recommend changing removing my weird key configurations
+      ## for these programs. TODO
+      # editors.neovim.enable = true;
+      # editors.vim.enable = true;
+      # editors.vscode.enable = true;
+      # browsers.qutebrowser.enable = true;
 
-      browsers.qutebrowser.enable = true;
       browsers.firefox.enable = true;
 
-      # syncthing doesn't work boot
+      # Buggy for me
       # services.syncthing.enable = true;
-      services.gimp.enable = true;
 
       dev.python.enable = true;
     };
 
-    ## These are packages without any personal configuration
+    #### Option 2: ADD PACKAGE NAMES HERE (If you don't want personal configuration) ####
     home.packages = with pkgs; [
-      # peek
       dropbox
-      gcc
+      # gcc
       zlib
       zoom-us
     ];
 
-    # enable, nix-shell replacement for project dev
+    # Enable, nix-shell replacement for project dependency management
     services.lorri.enable = true;
 
     home.username = builtins.getEnv "USER";
