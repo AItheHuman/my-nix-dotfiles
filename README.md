@@ -11,7 +11,7 @@
 
 ```sh
 sh <(curl -L https://nixos.org/nix/install) --daemon  # Install Nix
-git clone https://github.com/starryAri/my-nix-dotfiles $HOME/nix-config  # Clone this
+git clone https://github.com/aith/my-nix-dotfiles.git $HOME/nix-config  # Clone this
 cd $HOME/nix-config
 bash install.sh { generic, sun } # Choose machine. I don't recommend using sun.
 bash build.sh    # Build from configurations
