@@ -59,7 +59,33 @@
    "vim.easymotionMarkerForegroundColorTwoCharFirst" = "#FFFF00";
    "vim.easymotionMarkerForegroundColorTwoCharSecond" = "#FFFF00";
 
+   # set C-f back to the vscode handling
+   "vim.handleKeys" = {
+     "<C-a>" = false;
+     "<C-f>" = false;
+     "<M-c>" = false;
+     "<C-w>" = false;
+   };
    "vim.normalModeKeyBindings" = [
+     # this doesnt work, feel free to remove
+     {
+       "before" = [ "alt+c" ];
+       "commands" = [ "workbench.action.closeWindow" ];
+       "when" = [ "!editorIsOpen && !multipleEditorGroups" ];
+     }
+     # search next
+     {
+       "before" = [ "/" ];
+       "commands" = [ "actions.find" ];
+     }
+     {
+       "before" = [ "j" ];
+       "commands" = [ "editor.action.nextMatchFindAction" ];
+     }
+     {
+       "before" = [ "J" ];
+       "commands" = [ "editor.action.previousMatchFindAction" ];
+     }
      {
        "before" = [ "b" ];
        "after" = [ "t" ];
@@ -87,6 +113,18 @@
    ];
    "vim.operatorPendingModeKeyBindings" = [
      {
+       "before" = [ "/" ];
+       "commands" = [ "actions.find" ];
+     }
+     {
+       "before" = [ "j" ];
+       "commands" = [ "editor.action.nextMatchFindAction" ];
+     }
+     {
+       "before" = [ "J" ];
+       "commands" = [ "editor.action.previousMatchFindAction" ];
+     }
+     {
        "before" = [ "b" ];
        "after" = [ "t" ];
      }
@@ -105,6 +143,18 @@
      }
    ];
    "vim.visualModeKeyBindings" = [
+     {
+       "before" = [ "/" ];
+       "commands" = [ "actions.find" ];
+     }
+     {
+       "before" = [ "j" ];
+       "commands" = [ "editor.action.nextMatchFindAction" ];
+     }
+     {
+       "before" = [ "J" ];
+       "commands" = [ "editor.action.previousMatchFindAction" ];
+     }
      {
        "before" = [ "b" ];
        "after" = [ "t" ];
@@ -125,5 +175,6 @@
        "before" = [ "s" ];
        "after" = [ "<leader>" "<leader>" "s" ];
      }
+     # search next
    ];
  }

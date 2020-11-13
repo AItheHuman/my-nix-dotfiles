@@ -7,7 +7,7 @@ xmodmap -e "keycode 25 = h H h H"
 xmodmap -e "keycode 26 = d D d D"
 xmodmap -e "keycode 27 = c C c C"
 xmodmap -e "keycode 28 = bracketleft braceleft bracketleft braceleft"
-xmodmap -e "keycode 29 = F11 U2507 F11 U2507 F11 F11 XF86Switch_VT_11"   # shift-F11 changed to three-squares
+xmodmap -e "keycode 29 = x X x X"
 xmodmap -e "keycode 30 = bracketright braceright bracketright braceright"
 xmodmap -e "keycode 31 = w W w W"
 xmodmap -e "keycode 32 = v V v V"
@@ -23,7 +23,7 @@ xmodmap -e "keycode 39 = n N n N"
 xmodmap -e "keycode 40 = s S s S"
 xmodmap -e "keycode 41 = t T t T"
 xmodmap -e "keycode 42 = p P p P"
-xmodmap -e "keycode 43 = F12 U27A4 F12 U27A4 F12 F12 XF86Switch_VT_12"   # changed shift-F12 to a unicode bullet
+xmodmap -e "keycode 43 = z Z z Z" 
 xmodmap -e "keycode 44 = u U u U"
 xmodmap -e "keycode 45 = i I i I"
 xmodmap -e "keycode 46 = a A a A"
@@ -57,8 +57,8 @@ xmodmap -e "keycode 68 = 7 ampersand 7 ampersand "
 # xmodmap -e "keycode 74 = F8 F8 F8 F8 F8 F8 XF86Switch_VT_8"
 # xmodmap -e "keycode 75 = F9 F9 F9 F9 F9 F9 XF86Switch_VT_9"
 # xmodmap -e "keycode 76 = F10 F10 F10 F10 F10 F10 XF86Switch_VT_10"
-xmodmap -e "keycode 95 = x X x X"
-xmodmap -e "keycode 96 = z Z z Z"
+xmodmap -e "keycode 95 = F11 U2507 F11 U2507 F11 F11 XF86Switch_VT_11"   # shift-F11 changed to three-squares
+xmodmap -e "keycode 96 = F12 U27A4 F12 U27A4 F12 F12 XF86Switch_VT_12"   # changed shift-F12 to a unicode bullet
 
 
 ## Number Row

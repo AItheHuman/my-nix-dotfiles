@@ -72,20 +72,7 @@ in {
       # enable my vim-like controls
       programs.vscode = {
         userSettings = (import ./settings.nix { });
-        keybindings = [
-          {
-            "key" = "alt+i";
-            "command" = "workbench.action.previousEditor";
-          }
-          {
-            "key" = "alt+o";
-            "command" = "workbench.action.nextEditor";
-          }
-          {
-            "key" = "alt+c";
-            "command" = "workbench.action.closeWindow";
-          }
-        ];
+        keybindings = (import ./keybindings.nix { });
       };
     })
     # (mkIf cfg.sun.enable {

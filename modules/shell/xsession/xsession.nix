@@ -19,7 +19,8 @@ in {
       xsession.initExtra = builtins.readFile ./sun/.xsession;
     })
     (mkIf cfg.mykeys.enable {
-      xsession.initExtra = builtins.readFile ./mykeys.sh;
+      xsession.initExtra = builtins.readFile
+        ./my-keys-startup.sh; # separate from the my-keys.sh, which toggles
     })
     (mkIf config.customizeable.shell.my-scripts.enable {
       xsession.initExtra = "export PATH=$PATH:$HOME/my-scripts";

@@ -17,7 +17,7 @@ in {
         patches = [
           ./6.2/pertag.diff
           ./6.2/noborder.diff
-          ./6.2/main-and-vol-3.diff
+          ./6.2/mainandvol.diff
           ./6.2/clientindicators-personal.diff
         ];
       };

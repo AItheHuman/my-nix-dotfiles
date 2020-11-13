@@ -34,15 +34,17 @@ in {
       services.gimp.enable = true;
 
       dev.python.enable = true;
+      dev.cpp.enable = true;
+
     };
 
     ## These are packages without any personal configuration
     home.packages = with pkgs; [
       # peek
+      git
       dropbox
-      gcc
       zlib
-      zoom-us
+      # zoom-us
     ];
 
     # enable, nix-shell replacement for project dev

@@ -54,6 +54,8 @@ noremap <C--> <C-x>
 noremap <C-=> <C-a>
 noremap <M-,> <C-o>
 noremap <C-M-,> <C-i>
+noremap m >
+noremap M <
 
 inoremap <C-p> <C-r>+
 cnoremap <C-p> <C-r>+

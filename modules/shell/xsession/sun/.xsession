@@ -30,9 +30,11 @@ export PATH=$PATH:$/var/www/websites/aithehuman/
 export USE_WOLFRAM_LD_LIBRARY_PATH=1
 export QT_XCB_GL_INTEGRATION=none
 
-# pyenv (since removed)
-# export PYENV_ROOT="$HOME/.pyenv"
-# export PATH="$PYENV_ROOT/bin:$PATH" 
+## For my class CSE 111
+export PATH=$PATH:/afs/cats.ucsc.edu/courses/cse111-wm/bin
+
+## for my-keys.sh, which uses this file to toggle my-keys
+touch .my-keys-toggle
 
 sudo alsactl restore
 
