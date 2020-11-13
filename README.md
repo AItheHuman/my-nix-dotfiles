@@ -2,18 +2,27 @@
 
 ![My current setup](my-nix-workspace.png)
 
-## Supported Systems
+## Requirements
 
-- Linux running systemd, with SELinux disabled
-- macOS
+- Linux running systemd, with SELinux disabled, or MAC
+- git
+- curl
 
 ## Installation
 
+Install Nix
+
 ```sh
-sh <(curl -L https://nixos.org/nix/install) --daemon  # Install Nix
+sh <(curl -L https://nixos.org/nix/install) --daemon  # Install Nix, requires restart
+
+```
+
+Install config
+
+```sh
 git clone https://github.com/aith/my-nix-dotfiles.git $HOME/nix-config  # Clone this
 cd $HOME/nix-config
-bash install.sh { generic, sun } # Choose machine. I don't recommend using sun.
+bash install.sh {generic, sun} # Choose machine. I recommend generic and updating settings to your liking.
 bash build.sh    # Build from configurations
 ```
 
