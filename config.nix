@@ -1,1 +1,1 @@
-/home/a/nix-config/machines/sun/config.nix
+/home/a/nix-config/machines/earth/config.nix
